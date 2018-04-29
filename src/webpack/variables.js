@@ -5,9 +5,9 @@ exports.srcDirectory = path.join(__dirname, '..', 'app');
 
 const distDirectory = path.join(
   process.cwd(),
-  process.env.BUILD_PATH || './dist',
+  process.env.BUILD_PATH || './docs',
 );
 
-exports.clientDistDirectory = path.join(distDirectory, 'client');
+exports.clientDistDirectory = distDirectory;
 
 exports.excludedPatterns = [/node_modules/];

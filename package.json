@@ -23,7 +23,7 @@
     "server/app-server/dev": "APP_SERVER_PORT=${APP_SERVER_PORT:-3001} HOT=1 NODE_ENV=development webpack-dev-server --config ./src/webpack/webpack.config.js --display-error-details --hot",
     "build": "npm-run-all -s clean app/build",
     "dev": "NODE_ENV=development npm-run-all --aggregate-output -s clean -p server/app-server/dev",
-    "clean/build": "del-cli './dist'",
+    "clean/build": "del-cli './docs'",
     "clean": "run-p 'clean/*'",
     "validate-filenames": "validate-filenames",
     "lint-staged": "lint-staged",

@@ -5,7 +5,7 @@
     "target": "esnext",
     "module": "esnext",
 
-    "outDir": "../dist",
+    "outDir": "../docs",
     "checkJs": false,
     "skipLibCheck": true,
 

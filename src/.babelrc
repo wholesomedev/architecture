@@ -6,8 +6,8 @@
     // require('memoizeOnSuccess') ==> require('./memoizeOnSuccess')
     ["module-resolver", {
       "root": [
-        "./dist",
-        "./dist/app"
+        "./docs",
+        "./docs/app"
       ]
     }]
   ]
