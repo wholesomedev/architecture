@@ -34,7 +34,7 @@ export const LeftNav = connect((state: StoreState) => ({
     renderLinks = () => {
       return (
         <>
-          <Link to="/visitor-request-processing">
+          <Link to="/architecture/visitor-request-processing">
             Visitor request processing
           </Link>
         </>
