@@ -9,6 +9,7 @@ import { HotApp as App } from 'components/App/App';
 import { createConfiguredStore } from 'store/createConfiguredStore';
 import { HelmetProvider } from 'react-helmet-async';
 
+//dummycommit
 const history = createBrowserHistory({ basename: '/architecture' });
 
 const { store } = createConfiguredStore({
